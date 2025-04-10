@@ -15,15 +15,46 @@
 .brounded-sm
   border-radius: 8px !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center  
+
+.br-1
+  border-radius: 10px !important    
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FDF2D5
   &-2
-    background-color: #FFFBE8
+    background-color: #BDF7E7
   &-3
-    background-color: #F0E9F6
+    background-color: #E2E9F3
   &-4
-    background-color: #EAF8FD
+    background-color: #E6B9F9
+  &-5
+    background-color: #6A2C83 
+  &-6
+    background-color: #E2E9F3
+  &-7
+    background-color: #C7D7EB 
+  &-8
+    background-color: #F2DBFC
+  &-9
+    background-color: #FDECC1
+  &-10
+    background-color: #EBF0F7 
+  &-11
+    background-color: #6A2C83                  
+  &-12
+    color: #712B8B !important     
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -39,25 +70,87 @@
   &.color-terciario
     border-top: 5px solid $color-terciario !important
 
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 82%
+    transform: translateY(-0%)
+    background-color: #6A2C83
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      bottom: 0
+      height: 100%
+
+.bg-h86
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 82%
+    transform: translateY(-0%)
+    background-color: #E2E9F3
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      bottom: 0
+      height: 100%   
+
+
 // Full Width Background
 .bg-full-width
+  &-1    
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem 
+  &-2
+    background-size: 100% 60%
+    background-repeat: no-repeat
+    background-position: center top
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem     
+
+.bg-full-width-1
   background-size: cover
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
-    padding-right: 1.5rem
+    padding-right: 1.5rem  
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/curso/temas/12.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/curso/temas/48.png") !important
     background-position: bottom
+  &-3
+    background-image: url("../assets/curso/temas/51.png") !important
+    background-position: bottom    
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/curso/temas/20.png") !important
     background-position: bottom
 
 // Variables
@@ -182,24 +275,6 @@ $custom-card-img-height: 322px
   span
     font-size: 0.85em
 
-.large
-  .linea-tiempo-d__item__content__title
-    padding: 28px
-    border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
-  .linea-tiempo-d__item__content__title.active
-    background-color: $color-primario !important
-  .linea-tiempo-d__item__content__slot
-    border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
-  .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
-  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
-  .linea-tiempo-d__item__dots:after
-    border-left: 0px
-  .fa-angle-up, .fa-angle-down
-    display: block
 
 .border-top.color-primario
   border-top: 5px solid $color-primario !important
@@ -210,3 +285,37 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+
+.large
+  .linea-tiempo-d__item__content__title
+    padding: 28px
+    border-radius: 5px 5px 0px 0px
+    background-color: #28E5B1 !important
+  .linea-tiempo-d__item__content__title.active
+    background-color: #28E5B1 !important
+  .linea-tiempo-d__item__content__slot
+    border-radius: 0px 0px 5px 5px
+    background-color: #E8FCF6 !important
+  .linea-tiempo-d__item__number
+    background-color: #28E5B1 !important
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #28E5B1 !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 0px
+  .fa-angle-up, .fa-angle-down
+    display: block
+
+.slyder-a__tipo-b
+  background-color: #6A2C83 !important    
+.slyder-a__bullets__item
+  background-color: #BCA0C7 !important
+  border-color: #BCA0C7 !important
+.slyder-a__bullets__item--active
+  background-color: #A1BADA !important
+
+.img-infografica__card
+  z-index: -1
+
+.img-infografica__card--selected
+  z-index: 1       
