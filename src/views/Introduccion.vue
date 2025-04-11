@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.temasduccion
-  BannerInterno(subTitulo="temasducción")
+  BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .row.mb-5
       .col-lg-8
