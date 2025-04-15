@@ -311,12 +311,224 @@
     
           .col-lg-4.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/65.png', alt='')                                 
-  </template>
+              img(src='@/assets/curso/temas/65.png', alt='')  
+
+
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.w3.org/TR/WCAG21" target="_blank" rel="noopener noreferrer") World Wide Web Consortium (W3C). (2020). Web Content Accessibility Guidelines (WCAG) 2.1.  
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.aulicum.com/blog/entorno-virtual-de-aprendizaje/" target="_blank" rel="noopener noreferrer") Sampaolessi, L. (2022). Entorno Virtual de Aprendizaje (EVA): ¿Qué es y Cuál es su Aporte Para la Educación? Aulicum Blog. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=efnRkJSWdXQ" target="_blank" rel="noopener noreferrer") pascualbravovirtual. (2022). Formación docente pedagógica didáctica para escenarios digitales de aprendizaje - UD2. 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
+</template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'DISEÑO DE ENTORNOS VIRTUALES DE APRENDIZAJE',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de los siguientes elementos es fundamental para garantizar la accesibilidad en un Entorno Virtual de Aprendizaje?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Uso exclusivo de materiales en formato PDF',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Implementación de subtítulos y descripciones en imágenes',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Eliminación de herramientas interactivas',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Restricción del acceso a usuarios sin discapacidad',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué modelo instruccional estructura el diseño de aprendizaje en cinco fases: ¿Análisis, Diseño, Desarrollo, Implementación y Evaluación?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Conectivismo',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Modelo ADDIE',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Aprendizaje basado en problemas',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Teoría del aprendizaje experiencial',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál es una ventaja clave del aprendizaje adaptativo en entornos digitales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Permite que todos los estudiantes avancen al mismo ritmo',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Restringe el acceso a ciertos contenidos',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Personaliza la experiencia educativa según el progreso del estudiante',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Reduce la interacción entre estudiantes y docentes',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Qué herramienta permite analizar el comportamiento de los estudiantes en un Entorno Virtual de Aprendizaje?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Gamificación',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Analítica del Aprendizaje',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Evaluación sumativa',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aprendizaje colaborativo',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál de las siguientes estrategias fomenta la inclusión en la educación digital?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Uso de una única metodología para todos los estudiantes',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Implementación del Diseño Universal para el Aprendizaje (DUA)',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Exclusión de estudiantes con necesidades especiales',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Eliminación de herramientas de accesibilidad',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -325,4 +537,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
