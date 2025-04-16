@@ -332,16 +332,29 @@
               a(href="https://www.w3.org/TR/WCAG21" target="_blank" rel="noopener noreferrer") World Wide Web Consortium (W3C). (2020). Web Content Accessibility Guidelines (WCAG) 2.1.  
 
             p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://unesdoc.unesco.org/ark:/48223/pf0000379384" target="_blank" rel="noopener noreferrer") UNESCO. (2021). Recomendaciones sobre accesibilidad digital en la educación.  
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.w3.org/TR/WCAG21" target="_blank" rel="noopener noreferrer") Pérez-Sanagustín, M. & Santos, P. (2021). Inclusive and Accessible e-Learning: Guidelines and Best Practices. MDPI.                              
+
+            p.d-flex.my-4
               img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.aulicum.com/blog/entorno-virtual-de-aprendizaje/" target="_blank" rel="noopener noreferrer") Sampaolessi, L. (2022). Entorno Virtual de Aprendizaje (EVA): ¿Qué es y Cuál es su Aporte Para la Educación? Aulicum Blog. 
+              a(href="https://www.aulicum.com/blog/entorno-virtual-de-aprendizaje/" target="_blank" rel="noopener noreferrer") Sampaolessi, L. (2022). Entorno Virtual de Aprendizaje (EVA): ¿Qué es y Cuál es su Aporte Para la Educación? Aulicum Blog
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-66662010000100009" target="_blank" rel="noopener noreferrer") Bustos Sánchez, A. & Coll Salvador, C. (2010). Los entornos virtuales como espacios de enseñanza y aprendizaje. Una perspectiva psicoeducativa para su caracterización y análisis. Revista mexicana de investigación educativa, 15(44), 163-184.              
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://www.youtube.com/watch?v=efnRkJSWdXQ" target="_blank" rel="noopener noreferrer") pascualbravovirtual. (2022). Formación docente pedagógica didáctica para escenarios digitales de aprendizaje - UD2. 
-
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=5d7nSmV55gE" target="_blank" rel="noopener noreferrer") 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='')
+              img(src='@/assets/componentes/material-complementario.svg', alt='') INTEF. (2023). Diseño Universal para el Aprendizaje.
 
 </template>
 
