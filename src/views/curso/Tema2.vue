@@ -351,10 +351,11 @@
               a(href="https://www.youtube.com/watch?v=efnRkJSWdXQ" target="_blank" rel="noopener noreferrer") pascualbravovirtual. (2022). Formación docente pedagógica didáctica para escenarios digitales de aprendizaje - UD2. 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=5d7nSmV55gE" target="_blank" rel="noopener noreferrer") 
+              a(href="https://www.youtube.com/watch?v=5d7nSmV55gE" target="_blank" rel="noopener noreferrer") INTEF. (2023). Diseño Universal para el Aprendizaje.
+              
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='') INTEF. (2023). Diseño Universal para el Aprendizaje.
+              img(src='@/assets/componentes/material-complementario.svg', alt='') 
 
 </template>
 
