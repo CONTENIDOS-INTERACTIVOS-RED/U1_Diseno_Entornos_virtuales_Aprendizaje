@@ -303,7 +303,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Diseño de estrategias para la inclusión y accesibilidad en EVA
             p.mb-4(data-aos="fade-right") Se invita a leer el documento #[b Diseño de estrategias para la inclusión y accesibilidad en EVA], donde se aborda la importancia de crear Entornos Virtuales de Aprendizaje (EVA) accesibles e inclusivos, para garantizar la equidad educativa. Este material ofrece explicaciones claras, reflexiones pedagógicas y ejemplos prácticos, sobre principios de accesibilidad, estrategias de enseñanza adaptativas y evaluación digital inclusiva, con el fin de promover entornos de aprendizaje equitativos y efectivos.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
