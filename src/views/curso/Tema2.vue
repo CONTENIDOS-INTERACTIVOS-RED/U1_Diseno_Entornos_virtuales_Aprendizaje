@@ -13,8 +13,9 @@
           img.img-a.img-t(src='@/assets/curso/temas/36.png', alt='', data-aos="zoom-in")          
       .col-lg-4
         .bg-color-2.p-3.h-100
-          p(data-aos="fade-down").mb-0 Por su parte, los modelos instruccionales definen métodos y estrategias para diseñar experiencias de aprendizaje, efectivas. Entre los más destacados se encuentran el modelo ADDIE, que estructura el proceso instruccional en cinco fases (análisis, diseño, desarrollo, implementación y evaluación), y el modelo TPACK, que integra tecnología, pedagogía y contenido disciplinar, optimizando así la enseñanza digital (Acevedo-Blanco, Díaz Perea & Fernández Rodríguez, 2024).     
+          p(data-aos="fade-down").mb-0 Por su parte, los modelos instruccionales definen métodos y estrategias para diseñar experiencias de aprendizaje, efectivas. Entre los más destacados se encuentran el modelo ADDIE, que estructura el proceso instruccional en cinco fases (análisis, diseño, desarrollo, implementación y evaluación), y el modelo TPACK, que integra tecnología, pedagogía y contenido disciplinar, optimizando así la enseñanza digital (Acevedo-Blanco, Díaz Perea & Fernández Rodríguez, 2024).  
 
+    p(data-aos="fade-down").mb-5 La evolución del aprendizaje digital ha impulsado la incorporación de nuevas tendencias como la gamificación, el aprendizaje adaptativo y el uso de inteligencia artificial. Estas herramientas permiten personalizar la experiencia educativa y ofrecer retroalimentación inmediata, mejorando el compromiso del estudiante y la calidad del aprendizaje.
     .bg-full-width.bg-h85.mb-5
       .px-4.px-md-5
         .row.justify-content-center.align-items-center
@@ -82,7 +83,7 @@
         figure
           img.img-a.img-t(src="@/assets/curso/temas/43.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
                                       
-
+    h3(data-aos="fade-left") Aplicación práctica y desarrollo de habilidades
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0 
         figure

@@ -248,7 +248,7 @@
           p(numero="4" titulo="<i>Blockchain</i>") Garantiza la seguridad y autenticidad de certificaciones digitales, lo que facilita la verificación descentralizada de credenciales y promueve la movilidad académica internacional. 
 
     h4(data-aos="fade-left") Plataformas para la implementación de EVA
-    p(data-aos="fade-left").mb-5 Existen múltiples plataformas educativas que permiten poner en práctica entornos virtuales de aprendizaje. A continuación, se presentan algunas de las más utilizadas en educación media y superior, junto con sus características principales:p(data-aos="fade-left").mb-5 Existen múltiples plataformas educativas que permiten poner en práctica entornos virtuales de aprendizaje. A continuación, se presentan algunas de las más utilizadas en educación media y superior, junto con sus características principales:
+    p(data-aos="fade-left").mb-5 Existen múltiples plataformas educativas que permiten poner en práctica entornos virtuales de aprendizaje. A continuación, se presentan algunas de las más utilizadas en educación media y superior, junto con sus características principales:
 
     TabsC(data-aos="fade-right").color-primario.mb-5
       .bg-color-10.border.px-4.p-md-5.py-3(titulo="Moodle" :icon="require('@/assets/bullets/1.svg')")
