@@ -11,19 +11,19 @@
           figure
             img.img-a.img-t(src='@/assets/curso/temas/4.png', alt='')
 
-    .row.mb-5
-      .col-lg-8
-        p(data-aos="fade-left") Su diseño e implementación debe basarse en principios pedagógicos que favorezcan la participación activa del estudiante, promoviendo metodologías centradas en el aprendizaje significativo. En este sentido, modelos como el diseño instruccional ADDIE y el marco TPACK, son herramientas esenciales para planificar experiencias educativas eficaces en entornos digitales (Bautista Pérez, Borges Sáiz & Forés Miravalles, 2016).     
-        .bg-color-3.p-4.mb-3(data-aos="fade-left")
-          .row.align-items-start
-            .col-lg-auto
-              img.img-a.img-t(src="@/assets/curso/temas/5.svg")
-            .col-lg
-              p.mb-0 El pensamiento político ha evolucionado a lo largo de la historia, proporcionando diversas interpretaciones sobre la función y naturaleza del Estado. Cada teoría ha surgido en un contexto histórico específico y ha respondido a problemáticas particulares de su época y, el estudio de estas permite comprender cómo se ha construido la organización política actual. Analizar las ideas de estos pensadores es fundamental para identificar los cimientos sobre los cuales se sustentan los sistemas de gobierno y las formas en las que se ejerce el poder.
-        p(data-aos="fade-left") Asimismo, la accesibilidad y la inclusión se han convertido en pilares fundamentales del diseño de los EVA. Incluir tecnologías accesibles y estrategias que atiendan la diversidad estudiantil, permite mejorar la equidad en el acceso a la educación (Ramírez Chirinos, 2013).
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img.img-a.img-t(src="@/assets/curso/temas/6.png", data-aos="zoom-in")              
+
+    p(data-aos="fade-left").mb-3 Su diseño e implementación debe basarse en principios pedagógicos que favorezcan la participación activa del estudiante, promoviendo metodologías centradas en el aprendizaje significativo. En este sentido, modelos como el diseño instruccional ADDIE y el marco TPACK, son herramientas esenciales para planificar experiencias educativas eficaces en entornos digitales (Bautista Pérez, Borges Sáiz & Forés Miravalles, 2016).     
+
+    p(data-aos="fade-left").mb-5 Asimismo, la accesibilidad y la inclusión se han convertido en pilares fundamentales del diseño de los EVA. Incluir tecnologías accesibles y estrategias que atiendan la diversidad estudiantil, permite mejorar la equidad en el acceso a la educación (Ramírez Chirinos, 2013).
+
+    //- .row.mb-5
+    //-   .col-lg-8
+    //-     p(data-aos="fade-left").mb-3 Su diseño e implementación debe basarse en principios pedagógicos que favorezcan la participación activa del estudiante, promoviendo metodologías centradas en el aprendizaje significativo. En este sentido, modelos como el diseño instruccional ADDIE y el marco TPACK, son herramientas esenciales para planificar experiencias educativas eficaces en entornos digitales (Bautista Pérez, Borges Sáiz & Forés Miravalles, 2016).     
+
+    //-     p(data-aos="fade-left") Asimismo, la accesibilidad y la inclusión se han convertido en pilares fundamentales del diseño de los EVA. Incluir tecnologías accesibles y estrategias que atiendan la diversidad estudiantil, permite mejorar la equidad en el acceso a la educación (Ramírez Chirinos, 2013).
+    //-   .col-lg-4.mb-3.mb-lg-0
+    //-     figure
+    //-       img.img-a.img-t(src="@/assets/curso/temas/6.png", data-aos="zoom-in")              
 
     .bg-full-width-1.bg-color-4.mb-5
       .px-4.px-md-5
